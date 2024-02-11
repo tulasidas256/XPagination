@@ -82,7 +82,7 @@ function App() {
       <br />
       <div className='button'>
         <button onClick={previous}>Previous</button>
-        <button>{page}</button>
+        <p>{page}</p>
         <button onClick={next}>Next</button>
       </div>
     </div>

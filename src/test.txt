@@ -1,26 +1,8 @@
 
-const [page , setpage] = useState(1);
-const [ start , setstart] = useState(0);
-const [ end , setend] = useState(10);
-
-const next = () =>{
-    let lastPage = Math.ceil(data.lenght /10);
-
-    if(page < lastPage ){
-        setstart(end+1);
-        setend(end+10);
-        setpage(page+1);
-    }
-}
-
-const previous = () => {
-
-    if(page > 1){
-     setstart(end-10-1);
-     setend(end-10);
-     setpage(page-1);
-    }
-}
+Don’t forget to follow the good practice of performing error handling while making the API calls.
 In case of failure, you must display an alert message ‘failed to fetch data’.
+
+
+
 
 

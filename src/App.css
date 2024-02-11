@@ -30,10 +30,13 @@ tr{
   border-bottom: 1px solid #dddddd;
 }
 
-button{
+button , p {
   background-color: #0e8f46;
+  color: white;
+  padding: 5px;
   margin: 20px;
   border-radius: 2px;
+  border:none;
 }
 
 .button{

@@ -21,3 +21,6 @@ const previous = () => {
      setpage(page-1);
     }
 }
+In case of failure, you must display an alert message ‘failed to fetch data’.
+
+

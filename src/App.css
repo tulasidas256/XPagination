@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+tbody{
+  border-bottom: 2px solid #0e8f46;
+
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th{
+  height: 40px;
+  padding: 2px;
+  color: white;
+  background-color: #0e8f46;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+
+tr{ 
+  height: 40px;
+  padding: 2px;
+  text-align: left;
+  background-color:#e6e8e6;
+  border-bottom: 1px solid #dddddd;
+}
+
+button{
+  background-color: #0e8f46;
+  margin: 20px;
+  border-radius: 2px;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+}
+

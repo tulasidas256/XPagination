@@ -36,6 +36,7 @@ tr{
 }
 
 button{
+  width:65px;
   background-color: #228B22;
   color: white;
   padding: 5px;

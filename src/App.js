@@ -16,7 +16,7 @@ function App() {
       //console.log(res.data);
       setData(res.data);
     } catch (e) {
-      console.log("Error fetching data: ", e);
+      //console.log("Error fetching data: ", e);
       alert("failed to fetch data");
     }
   };
@@ -45,13 +45,14 @@ function App() {
   useEffect(() => {
     employeApi();
   }, []);
-
+  /*
   useEffect(()=>{
     console.log("render");
     console.log("=>",data);
     console.log("start =>",start);
     console.log("end =>",end);
   },[page]);
+  */
 
 
   return (

@@ -3,7 +3,7 @@
 }
 
 tbody{
-  border-bottom: 2px solid #0e8f46;
+  border-bottom: 2px solid #228B22;
 
 }
 
@@ -16,7 +16,7 @@ th{
   height: 40px;
   padding: 2px;
   color: white;
-  background-color: #0e8f46;
+  background-color: #228B22;
   text-align: left;
   border-bottom: 1px solid #dddddd;
 }
@@ -36,7 +36,7 @@ tr{
 }
 
 button{
-  background-color: #0e8f46;
+  background-color: #228B22;
   color: white;
   padding: 5px;
   margin: 20px;
@@ -47,7 +47,7 @@ button{
 
 p{
   width: 25px;
-  background-color: #0e8f46;
+  background-color: #228B22;
   color: white;
   padding: 5px;
   margin: 20px;

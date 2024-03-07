@@ -48,7 +48,7 @@ function App() {
 
   useEffect(()=>{
     console.log("render");
-    console.log("after render",data);
+    console.log("=>",data);
     console.log("start =>",start);
     console.log("end =>",end);
   },[page]);
